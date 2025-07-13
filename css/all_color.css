@@ -1,0 +1,34 @@
+/*Цвета, градиенты для всех блоков и кнопок*/
+.s_cl {
+    background: #028600;
+    background-image: -webkit-linear-gradient(top, #3cce0b, #028600);
+    background-image: -moz-linear-gradient(top, #3cce0b, #028600); /* for firefox 3.6+ */ 
+    background-image: -ms-linear-gradient(top, #3cce0b, #028600);
+    background-image: -o-linear-gradient(top, #3cce0b, #028600); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cce0b', endColorstr='#028600'); /*IE6-IE10*/
+}
+/*Цвет текста в навигационных бллоках*/
+.txt_cl a {
+    color: #ff0000;
+}
+/*Рамки блоков на главной*/
+.ram_bac {
+    background: #ced9c8;
+}
+/*Рамки боковых блоков и меню на всех страницах*/
+.dop_bac {
+    border: 5px solid #ced9c8;
+    border-bottom: 15px solid #ced9c8;
+}
+/*Цвет главного меню*/
+.glm_cl {
+    background: #e2eadf;
+}
+/*Цвет текста кнопок главного меню*/
+.txt_clm {
+    color: #000000;
+}
+/*Цвет текста крошек сайта*/
+.cr_cl {
+    color: #1ca702;
+}

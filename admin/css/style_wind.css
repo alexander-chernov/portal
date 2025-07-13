@@ -1,0 +1,121 @@
+/*Стили для постоянных элементов всплывающего окна*/
+.a_1 {
+    text-decoration:none;
+    color:#03508c;
+    font-weight:bold;
+    font-size:16px;
+    cursor: pointer;
+}
+.wind {
+    position: fixed;
+    /*top: 10%;
+    left: 30%;*/
+    max-height: 650px;
+    max-width: 900px; 
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 10;
+    overflow: auto;
+    color:#000;
+    text-align:center;
+    background: #fff;
+    padding: 0 15px 15px 15px;
+    border: 10px solid rgba(0,0,0,0.8);
+    border-radius: 10px;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.wind_1 {
+    max-height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 10;
+    overflow: auto;
+    color:#000;
+    text-align:center;
+    background: #fff;
+    padding: 0 15px 15px 15px;
+    border: 10px solid rgba(0,0,0,0.8);
+    border-radius: 10px;
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.wind_green {
+    position: fixed;
+    /*top: 10%;
+    left: 30%;*/
+    max-height: 750px;
+    max-width: 900px; 
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+    color:#000;
+    text-align:center;
+    background: #fff;
+    padding: 0 15px 15px 15px;
+    border: 10px solid rgba(49,124,19,0.8);
+    border-radius: 10px;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.temno {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    display: none;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.close {
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    background: black;
+    color: #fff;
+    border-radius: 100%;
+    right: 0px;
+    padding: 3px 8px;
+    margin: 0;
+    border: 2px solid #a4a5a4;
+    cursor: pointer;
+}
+.close:hover {
+    background: #a4a5a4;
+    border: 2px solid #000;
+    opacity: 0.8;
+}
+/*Конец Стилей для постоянных элементов всплывающего окна*/
+
+.access_list {
+    list-style: none;
+}
+.access_list li {
+    text-align: left;
+}

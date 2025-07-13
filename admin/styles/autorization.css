@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
+#tab1 {
+    width: 100%;
+    height: 450px;
+}
+#zag {
+    background-color: #2d348c;
+    font-weight: bold;
+    border:1px solid #cccccc;
+    border-radius: 10px;
+    height: 50px;
+}
+#zag p {
+    margin: 0;
+    font-size: 150%;
+    color: #fff;
+    padding-left: 15px;
+}
+#home {
+    border:1px solid #cccccc;
+    border-radius: 10px;
+    height: 450px;
+}
+#forma {
+    position: relative;
+    border:1px solid #cccccc;
+    border-radius: 10px;
+    width: 45%;
+    min-width: 600px;
+    padding: 15px 15px;
+    margin: auto;
+}
+#forma table {
+    width: 100%;
+}
+#forma a {
+    text-decoration: none;
+}
+#forma table td.right {
+    position: relative;
+    top: 35px;
+}
+.tr_gl {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background: #b1c2dd;
+}
+#title {
+    position: relative; 
+    width: auto;
+}
+#title p {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    text-align: left;
+    color: #025a8d;
+    font-weight: bold;
+    font-size: 110%;
+}
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    float: right;
+    width: 150px;
+    right: 15px;
+}
+#logo img {
+    vertical-align: top;
+    width: 100%;
+}
+#ram2 {
+    border: 1px solid #cccccc;
+    border-radius: 0px 0px 10px 10px;
+}
+#coments {
+    width: auto;
+    padding-left: 15px;
+}
+#coments p {
+    text-align: left;
+    color: #000;
+    font-size: 70%;
+    margin: 0;
+}
+#coments a {
+    text-align: left;
+    color: #2973c2;
+    font-size: 70%;
+}
+.blue {
+    font-weight: bold;
+}
+.red {
+    color: #fe191e;
+    font-weight: bold;
+}
+#coment {
+    margin-top: 70px;
+}
+#login p {
+    font-size: 80%;
+    margin: 2px;
+    font-weight: bold;
+}
+#pas p{
+    font-size: 80%;
+    margin: 2px;
+    font-weight: bold;
+}
+#saveme p{
+    font-size: 80%;
+    margin: 2px;
+    font-weight: bold;
+}
+#login div input, #pas div input, #saveme div{
+    border: 3px solid #b1c2dd;
+    color: black;
+    padding-left: 5px;
+    height: 22px;
+    width: 170px;
+}
+#login div, #pas div {
+    border: 1px solid #2683ae;
+}
+#imginput {
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+#forma table table {
+    width: auto;
+    margin-left: 12px;
+}
+#niz {
+    border: 1px solid #2683ae;
+}
+#str2 {
+    padding-right: 15px; 
+}

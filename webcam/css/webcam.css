@@ -1,0 +1,152 @@
+.all_webcam_block{
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+.block_content {
+    position: relative;
+    padding: 10px;
+    display: none;
+}
+.block_content_1 {
+    position: relative;
+    display: block;
+}
+.kriteri_webcam {
+    position: relative;
+    width: auto;
+    /* min-height: 550px; */
+    border-radius: 0px 22px 0px 0px;
+    border: 0px solid #c6c6c6;;
+}
+.style_shapka_3 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: #ccc;
+    font-size: 80%;
+    top: 10px;
+    right: 10px;
+}
+.style_shapka_4 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 85%;
+    font-family: Tahoma;
+    top: 8px;
+    left: 10px;
+}
+.listing {
+    position: relative;
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+.style_listing {
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 80%;
+    font-family: Tahoma;
+    color: #000000;
+}
+.active_listing {
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 80%;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #000000;
+}
+.visible_content {
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.visible_content_text {
+    font-size: 80%;
+    font-family: Tahoma;
+    padding-right: 10px;
+    color: #adb3aa;
+}
+.visible_content_text a {
+    font-family: Tahoma;
+    color: #adb3aa;
+    padding-right: 2px;
+    text-decoration: none;
+    border-left: 1px solid #adb3aa;
+    padding-left: 5px;
+}
+.cameri {
+    width: auto;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.cam_block {
+    width: 230px;
+    height: 205px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.img_webcam {
+    width: 220px;
+    height: 165px;
+    vertical-align: top;
+    border: 1px solid #c6c6c6;
+    padding: 2px;
+    cursor: pointer;
+}
+.text_webcam {
+    font-size: 80%;
+    font-family: Tahoma;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+.cameri_big {
+    width: auto;
+    padding: 15px;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cam_big_block {
+    width: 600px;
+    height: 450px;
+    border: 1px solid #c6c6c6;
+    padding: 2px;
+    margin: 0 auto;
+}
+.text_big_webcam {
+    font-size: 100%;
+    font-family: Tahoma;
+    color: #000000;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+.obveden_block {
+    width: auto;
+    border: 2px solid #ced9c8;
+    margin-top: 5px;
+    border-bottom:2px solid #ced9c8;
+    padding-bottom: 50px;
+    margin-top: 1px;
+}
