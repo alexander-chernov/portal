@@ -25,18 +25,17 @@ if (isset($_POST['EmailAdmin'])) {
     $mail->CharSet = 'UTF-8';
     $mail->IsSMTP(); // telling the class to use SMTP
     try {
-        //$mail->Host       = "tomsk-line.ru"; // SMTP server
-        $mail->Host       = "192.168.151.141"; // SMTP server
+        $mail->Host       = "smtp.email.com"; // SMTP server (example: smtp.email.com)
         /*
         $mail->SMTPDebug  = 0;                     // enables SMTP debug information (for testing)
                                                    // 1 = errors and messages
                                                    // 2 = messages only
         $mail->SMTPAuth   = true;                  // enable SMTP authentication
         $mail->SMTPSecure = "ssl";                 // sets the prefix to the servier
-        $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
-        $mail->Port       = 465;                   // set the SMTP port for the GMAIL server
-        $mail->Username   = "TOMSK.LINE.ru@gmail.com ";  // GMAIL username
-        $mail->Password   = "Qwer1@34";            // GMAIL password
+        $mail->Host       = "smtp.email.com";      // sets email as the SMTP server
+        $mail->Port       = 465;                   // set the SMTP port for the email server (example: 465)
+        $mail->Username   = "email@email.ru ";     // email username (example: email@email.ru)
+        $mail->Password   = "password";            // email password (example: password)
         */
 
         $mail->SetFrom('noreply@'._SERVER_ADDRESS, _SERVER_ADDRESS);
