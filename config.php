@@ -14,7 +14,7 @@ $start = $time;
 mb_internal_encoding("UTF-8");
 define('YANDEX_GEO_LINK',"http://geocode-maps.yandex.ru/1.x/?format=json&geocode=");
 define('YANDEX_GEO_PEOPLEMAP_LINK',"http://psearch-maps.yandex.ru/1.x/?format=json&text=");
-$hash = base64_encode(md5(md5('TriPorosenka')));
+$hash = base64_encode(md5(md5('SectetKeyPhrase')));
 define('DOUBLEGIS_API_KEY',$hash);
 $url = 'http://catalog.api.2gis.ru/geo/search?version=1.3&key='.$hash.'&q=';
 define('DOUBLEGIS_GEO_LINK',$url);
@@ -24,7 +24,7 @@ $perPage = 1000;
 $perPageAjax = 5;
 $perPageMap = 100;
 session_start();
-//$mysqli = new mysqli('localhost', 'project', '4eTLDcKmdKpQYqhy','k_kedr');
+
 if ($mysqli->connect_errno) {
     echo "Не удалось подключиться к MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }

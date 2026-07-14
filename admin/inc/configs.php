@@ -1,12 +1,12 @@
 <?php
 $database_address = "localhost";
-$database_login = "kedr";
-$database_password = "kedr";
-$database_name = "kedr";
+$database_login = "db_login";
+$database_password = "db_password";
+$database_name = "db_name";
 $database_charset = "UTF8";
-define('_DB_addr', 'localhost');
-define('_DB_name', 'kedr');
-define('_DB_login', 'kedr');
-define('_DB_pass', 'kedr');
-define('_SERVER_ADDRESS','nashtomsk.ru');
+define('_DB_addr', $database_address);
+define('_DB_name', $database_name);
+define('_DB_login', $database_login);
+define('_DB_pass', $database_password);
+define('_SERVER_ADDRESS','portal.local');
 
